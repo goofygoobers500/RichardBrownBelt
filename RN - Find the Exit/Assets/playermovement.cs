@@ -17,7 +17,10 @@ public class playermovement : MonoBehaviour
 
 
         //transform.Translate(Vector3.forward * speed * Time.deltaTime);
-
+        float horizontal = Input.GetAxis("Horizontal");
+        //float vertical = Input.GetAxis("Vertical");
+        Vector3 destination = new Vector3(horizontal, 0, 1);
+        GetComponent<Rigidbody>().velocity = destination * speed;
 
 
 
