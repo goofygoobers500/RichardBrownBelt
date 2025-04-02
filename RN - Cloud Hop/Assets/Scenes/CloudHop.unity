@@ -2351,7 +2351,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 919825732126849893}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5a4016780ec5374abb15e69c0abb9e9, type: 3}
+  m_Script: {fileID: 11500000, guid: 77f6978efbb87e949871c126ec11c432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &919825732126849900
@@ -2366,13 +2366,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68efbd3772237f7459fc6b420df60901, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.9811321, g: 0.44891423, b: 0.6678102, a: 1}
-  skin: {r: 0.735849, g: 0.6176116, b: 0.3922214, a: 1}
-  hatPartNumber: 0
-  facePartNumber: 0
-  handPartNumber: 0
-  upperBodyPartNumber: 0
-  lowerBodyPartNumber: 0
+  color: {r: 0.5660378, g: 0.3333627, b: 0, a: 1}
+  skin: {r: 1, g: 1, b: 1, a: 1}
+  hatPartNumber: 25
+  facePartNumber: 12
+  handPartNumber: 15
+  upperBodyPartNumber: 15
+  lowerBodyPartNumber: 16
 --- !u!4 &919825733072733160
 Transform:
   m_ObjectHideFlags: 0
