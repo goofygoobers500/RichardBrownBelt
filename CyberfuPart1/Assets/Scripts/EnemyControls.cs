@@ -47,7 +47,7 @@ public class EnemyControls : MonoBehaviour {
 
             currentAttackingTime = 0f;
             int rand = Random.Range(1, 4);
-            animatorEnemy.SetTrigger("Attack1");
+            animatorEnemy.SetTrigger("Attack"+rand);
         }
     }
 
